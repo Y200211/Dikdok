@@ -1,0 +1,18 @@
+name: "dikdok"
+mode: "dev"
+port: "8889"
+start_time: "2023-07-07"
+machine_id: 1
+log:
+  level: "debug"
+  filename: "dikdok.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: "81.70.150.72"
+  port: 8086
+  user: "root"
+  password: "123456"
+  dbname: "dikdok_db"
+  mysql_log_level: 4 # “1”是slient, "2"是Error, "3"是Warn, "4"是Info

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="defe3458-b13e-419a-a153-298661b72d89" name="Ubantu">
+        <fileTransfer rootFolder="/home/gopath/src/real_my_tiktok" accessType="SFTP" host="81.70.150.72" port="22" sshConfigId="3d29a4e7-4f9f-496c-9283-0bab6ef4af47" sshConfig="root@81.70.150.72:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
